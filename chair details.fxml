@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" text="Desk" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="34.0" layoutY="125.0" prefHeight="28.0" prefWidth="157.0" text="Purchase Cost" />
+            <Label layoutX="34.0" layoutY="220.0" prefHeight="27.0" prefWidth="140.0" text="Date" />
+            <Label layoutX="34.0" layoutY="80.0" prefHeight="17.0" prefWidth="92.0" text="Supplier" />
+            <TextField layoutX="191.0" layoutY="76.0" />
+            <TextField layoutX="191.0" layoutY="126.0" />
+            <Spinner layoutX="191.0" layoutY="221.0" prefHeight="7.0" prefWidth="149.0" />
+            <Label layoutX="34.0" layoutY="29.0" prefHeight="24.0" prefWidth="239.0" text="Desk Details">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="34.0" layoutY="179.0" prefHeight="17.0" prefWidth="107.0" text="Meterial" />
+            <TextField layoutX="191.0" layoutY="175.0" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>

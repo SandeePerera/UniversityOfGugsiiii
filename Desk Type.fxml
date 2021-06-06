@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" text="Asset Entering" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="64.0" layoutY="84.0" prefHeight="35.0" prefWidth="240.0" text="Desk Type">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="95.0" layoutY="130.0" prefHeight="17.0" prefWidth="447.0" text="Select the Desk Type ">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <CheckBox layoutX="95.0" layoutY="179.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0" text="Filling Cabinets" />
+            <CheckBox layoutX="287.0" layoutY="183.0" mnemonicParsing="false" text="Book Case" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>
